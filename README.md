@@ -46,7 +46,7 @@
 * **Tema:** 
 * **Lo que vimos:**
   * Podíamos observar como son los servidores y sus arquitectura mediante material visual proporcionado por el profesor
-  * 
+  * Modelo de responsabilidad compartida: quiere decir que ambas partes tienen responsabilidades  divididas como por ejemplo administrar usuarios,la rapidez de los datos etc.
 * **Notas / Ejemplos:**
   * 
 * **Pendientes / Tareas:**
