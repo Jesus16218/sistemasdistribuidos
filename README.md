@@ -33,7 +33,7 @@
 ## Semana 3
 * **Tema:** 
 * **Lo que vimos:**
-  * 
+  * Podíamos observar como son los servidores y sus arquitectura mediante material visual proporcionado por el profesor
   * 
 * **Notas / Ejemplos:**
   * 
