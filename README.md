@@ -33,7 +33,7 @@
 ## Semana 3
 * **Tema:** 
 * **Lo que vimos:**
-  * Podíamos observar como son los servidores y sus arquitectura mediante material visual proporcionado por el profesor
+  * nos enseño y explico como funciona los servidores y como es que los datos llegan,también como se comportan en tiempo real. así como también el cableado marino y subterráneo
   * 
 * **Notas / Ejemplos:**
   * 
@@ -45,7 +45,7 @@
 ## Semana 4
 * **Tema:** 
 * **Lo que vimos:**
-  * 
+  * Podíamos observar como son los servidores y sus arquitectura mediante material visual proporcionado por el profesor
   * 
 * **Notas / Ejemplos:**
   * 
