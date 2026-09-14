@@ -4,11 +4,11 @@
 
 ---
 
-## Semana 1
+## Semana 1 (17 de agosto/ 19 de agosto)
 * **Tema:** 
 * **Lo que vimos:**
   * nos presentamo y nos indico los criterios de evaluacion
-  * 
+  * El professor hablo acerca de su trayectoria y de como le a ido como empleado
 * **Notas / Ejemplos:**
   * 
 * **Pendientes / Tareas:**
@@ -16,7 +16,7 @@
 
 ---
 
-## Semana 2
+## Semana 2 (24 de agosto/ 26 agosto)
 * **Tema:** 
 * **Lo que vimos:**
   * capas osi y capas tcp/ip
@@ -30,7 +30,7 @@
 
 ---
 
-## Semana 3
+## Semana 3 (31 de agosto/ 2 de septiembre)
 * **Tema:** 
 * **Lo que vimos:**
   * nos enseño y explico como funciona los servidores y como es que los datos llegan,también como se comportan en tiempo real. así como también el cableado marino y subterráneo
@@ -42,7 +42,7 @@
 
 ---
 
-## Semana 4
+## Semana 4 (7 de septiembre / 9 de septiembre)
 * **Tema:** 
 * **Lo que vimos:**
   * Podíamos observar como son los servidores y sus arquitectura mediante material visual proporcionado por el profesor
@@ -54,10 +54,11 @@
 
 ---
 
-## Semana 5
+## Semana 5 (14 de septiembre/ 16 de septiembre)
+
 * **Tema:** 
 * **Lo que vimos:**
-  * 
+  * el profesor nos presento un programa de IA para poder detectar movimientos,objetos y personas esto mediante una rasberrypi, un sensor y una camara de video 
   * 
 * **Notas / Ejemplos:**
   * 
