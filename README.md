@@ -59,7 +59,7 @@
 * **Tema:** 
 * **Lo que vimos:**
   * el profesor nos presento un programa de IA para poder detectar movimientos,objetos y personas esto mediante una rasberrypi, un sensor y una camara de video 
-  * 
+  * también vimos como funciona aws y sus servicios, logs y como se comporta
 * **Notas / Ejemplos:**
   * 
 * **Pendientes / Tareas:**
