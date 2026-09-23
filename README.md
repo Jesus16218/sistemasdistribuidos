@@ -181,10 +181,7 @@
     * Diferencial: Lun = cambios lun; Mar = cambios lun + mar; Mié = cambios lun + mar + mié.
   * *Ejemplo RTO:* Si un hospital se queda sin luz y la planta eléctrica tarda 15 segundos en reactivar quirófanos, el RTO es de 15 segundos.
   * *Ejemplo RPO:* Si el cel respalda a las 11:00 PM y se pierde al día siguiente a las 10:00 PM, perdiste 23 horas de fotos (RPO = 24h). Con copias cada 5 min, tu RPO es de 5 min.
-  * *Cheat sheet para el examen oral:*
-    * **DR:** "Estrategias de recuperación ante desastres; en backups usamos incrementales (cambios respecto al último backup de cualquier tipo, restauración más lenta) o diferenciales (cambios respecto a la última copia completa, restauración más rápida)."
-    * **RTO:** "Tiempo máximo aceptable que un sistema puede estar caído tras un desastre antes de volver a estar operativo."
-    * **RPO:** "Cantidad máxima de datos, expresada en tiempo, que la organización se puede permitir perder tras un fallo."
+  * 
 
 * **Pendientes / Tareas:**
 ---
