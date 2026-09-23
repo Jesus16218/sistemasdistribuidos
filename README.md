@@ -8,7 +8,7 @@
 
 * **Tema:** Presentación del curso, criterios de evaluación y trayectoria profesional del profesor.
 * **Lo que vimos:**
-  * **Presentación del grupo:** Cada estudiante se presentó de manera breve, mencionando su nombre, intereses y expectativas sobre la materia. Esto sirvió para que el profesor conociera el nivel del grupo y para romper el hielo entre compañeros.
+  *.
   * **Criterios de evaluación:** El profesor explicó detalladamente cómo se evaluará el curso, incluyendo:
     * Porcentaje de participación en clase.
     * Entrega de tareas y trabajos prácticos.
