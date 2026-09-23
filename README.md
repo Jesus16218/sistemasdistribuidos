@@ -155,16 +155,38 @@
 
 ---
 
-## Semana 6 (20 de septiembre/ 23 de septiembre 
-* **Tema:** 
-* **Lo que vimos:**
-  * 
-  * 
-* **Notas / Ejemplos:**
-  * 
-* **Pendientes / Tareas:**
-  * [ ] 
+## Semana 6 (20 de septiembre / 23 de septiembre)
+* **Tema:** Estrategias de DR (Disaster Recovery), Métricas de Continuidad (RTO/RPO) y Balanceo de Carga
 
+* **Lo que vimos:**
+  * **Disaster Recovery (DR):** Planes de acción para recuperar la infraestructura completa tras una catástrofe grave (incendios, inundaciones, cortes de luz masivos).
+    * Estrategias de recuperación (de menor a mayor costo y complejidad):
+      * *Backup & Restore (Cold Standby / En Frío):* Solo respaldos; si truena todo, se compran servidores y se monta de cero (días en levantar).
+      * *Pilot Light (Luz Piloto):* BD replicándose en tiempo real en otra región/ciudad, pero servidores web apagados hasta que ocurra la falla.
+      * *Warm Standby (En Tibio):* Réplica funcional idéntica pero a escala mínima/reducida; ante desastre solo se escala la capacidad.
+      * *Multi-site Active/Active (Hot Standby / En Caliente):* Dos o más infraestructuras completas activas al 100% recibiendo tráfico simultáneo. Cero tiempo de caída.
+    * Tipos de Respaldos (Backups):
+      * *Incremental:* Solo respalda lo que cambió desde el último backup (sea completo o incremental). Rápido de crear, poco espacio, pero restauración lenta (requiere el full inicial + todos los incrementales en orden).
+      * *Diferencial:* Respalda todo lo que cambió respecto al último backup COMPLETO. Pesa más y tarda más en crearse con los días, pero restaura rápido (solo necesitas el full inicial + el último diferencial).
+  * **Métricas clave de recuperación:**
+    * *RTO (Recovery Time Objective):* Tiempo máximo tolerado para levantar el servicio tras una caída. Responde a: *¿En cuánto tiempo volvemos a operar?*
+    * *RPO (Recovery Point Objective):* Cantidad de datos (medida en tiempo) que la organización tolera perder. Responde a: *¿De cuándo es el respaldo más reciente con el que nos quedamos?*
+  * **Algoritmos de Load Balancing:**
+    * Reglas para que el balanceador distribuya las peticiones entre los servidores sin saturar ninguno.
+    * *Round Robin:* Reparto secuencial uno por uno (Servidor 1 → Servidor 2 → Servidor 3 → repite). Ideal cuando todos los servidores tienen el mismo hardware.
+
+* **Notas / Ejemplos:**
+  * *Ejemplo Backup Incremental vs Diferencial (Full el domingo):*
+    * Incremental: Lun = cambios lun; Mar = cambios mar; Mié = cambios mié.
+    * Diferencial: Lun = cambios lun; Mar = cambios lun + mar; Mié = cambios lun + mar + mié.
+  * *Ejemplo RTO:* Si un hospital se queda sin luz y la planta eléctrica tarda 15 segundos en reactivar quirófanos, el RTO es de 15 segundos.
+  * *Ejemplo RPO:* Si el cel respalda a las 11:00 PM y se pierde al día siguiente a las 10:00 PM, perdiste 23 horas de fotos (RPO = 24h). Con copias cada 5 min, tu RPO es de 5 min.
+  * *Cheat sheet para el examen oral:*
+    * **DR:** "Estrategias de recuperación ante desastres; en backups usamos incrementales (cambios respecto al último backup de cualquier tipo, restauración más lenta) o diferenciales (cambios respecto a la última copia completa, restauración más rápida)."
+    * **RTO:** "Tiempo máximo aceptable que un sistema puede estar caído tras un desastre antes de volver a estar operativo."
+    * **RPO:** "Cantidad máxima de datos, expresada en tiempo, que la organización se puede permitir perder tras un fallo."
+
+* **Pendientes / Tareas:**
 ---
 
 ## Semana 7
